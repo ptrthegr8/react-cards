@@ -65,6 +65,12 @@ following props:
   `.card__descriptionIcon` div. Example: "fa-trophy".
 - `price`: A string which is the price to be listed on the card. Example:
   "$6,000.00"
+  /*
+  {props.description}
+  {props.hint}
+  {props.icon}
+  {props.price}
+  */
 
 Hint: Conditionally rendering will be covered in detail later, but here's an
 example of conditionally showing text if it's provided:
